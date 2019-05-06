@@ -33,7 +33,9 @@
     "pack:win": "cmd /c npm install && npm run clean-build && npm run copy-files && npm run build-prod && npm run build-electron && npm run clean-dist && npm run dist:win",
     "storybook": "start-storybook -p 6006 -s ./src/",
     "build-storybook": "build-storybook",
-    "serve": "http-server"
+    "serve": "http-server",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Lisk Foundation <admin@lisk.io>, lightcurve GmbH <admin@lightcurve.io>",
   "license": "GPL-3.0",
@@ -86,7 +88,8 @@
     "redux": "3.7.2",
     "redux-thunk": "=2.2.0",
     "socket.io-client": "=2.0.3",
-    "webpack-merge": "=4.1.0"
+    "webpack-merge": "=4.1.0",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "3.2.12",
@@ -231,5 +234,6 @@
     "ignore": [
       "postcss-cssnext"
     ]
-  }
+  },
+  "snyk": true
 }
