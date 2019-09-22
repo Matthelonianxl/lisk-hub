@@ -74,7 +74,7 @@
     "react-copy-to-clipboard": "5.0.1",
     "react-countdown-now": "1.2.0",
     "react-css-themr": "=2.1.2",
-    "react-dom": "=16.2.0",
+    "react-dom": "16.9.0",
     "react-i18next": "=6.0.6",
     "react-joyride": "1.11.4",
     "react-redux": "5.0.6",
