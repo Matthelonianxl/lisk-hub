@@ -63,7 +63,7 @@
     "popmotion": "7.8.2",
     "popmotion-react": "1.1.1",
     "popsicle": "9.1.0",
-    "postcss": "6.0.12",
+    "postcss": "8.2.13",
     "postcss-cssnext": "2.11.0",
     "prop-types": "=15.5.10",
     "qrcode.react": "0.7.2",
@@ -85,7 +85,7 @@
     "react-waypoint": "7.1.0",
     "redux": "3.7.2",
     "redux-thunk": "=2.2.0",
-    "socket.io-client": "=2.0.3",
+    "socket.io-client": "4.0.0",
     "webpack-merge": "=4.1.0"
   },
   "devDependencies": {
