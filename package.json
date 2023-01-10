@@ -46,7 +46,7 @@
     "bitcore-mnemonic": "1.5.0",
     "chart.js": "2.7.2",
     "cheerio": "1.0.0-rc.2",
-    "electron-localshortcut": "=2.0.2",
+    "electron-localshortcut": "3.2.0",
     "flexboxgrid": "=6.3.1",
     "hard-source-webpack-plugin": "0.4.11",
     "history": "=4.7.2",
@@ -85,7 +85,7 @@
     "react-waypoint": "7.1.0",
     "redux": "3.7.2",
     "redux-thunk": "=2.2.0",
-    "socket.io-client": "=2.0.3",
+    "socket.io-client": "2.1.0",
     "webpack-merge": "=4.1.0"
   },
   "devDependencies": {
